@@ -73,7 +73,7 @@ img {
 /*about me section*/
 
 .about-me {
-    height: 400px;
+    height: 600px;
     background-color: var(--primary-color);
     color: #fff;
     position: relative;
@@ -137,6 +137,7 @@ img {
 
 /* work page */
 
+
 .introduction-text{
     animation: slideInFromTop 1s ease-in;/*plz check animation below*/
 }
@@ -145,6 +146,44 @@ img {
 .project-img {
     border-radius: 5%;
 }
+
+/* contact-page */
+
+.contact-me-text {
+    animation: slideInFromLeft 1s ease-in;/*plz check animation below*/
+}
+
+.contact {   
+    top: 60px;
+    height: 600px;
+    width: 300px;
+    padding: 0px;
+    animation: slideInFromRight 1s ease-in;
+}
+
+.contact-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact input[type='email'] {
+    border: 0;
+    border-bottom: 1px solid #093527;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.contact textarea {
+    border: 0;
+    border-bottom: 1px solid #093527;
+    height: 200px;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+
 
 
 
@@ -156,9 +195,6 @@ img {
     padding: 0 40px;
 
 }
-
-
-
 
 
 .card {
