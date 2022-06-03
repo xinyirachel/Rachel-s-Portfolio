@@ -3,12 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Lato:wght@300&display=swap');
 
 :root {
-    --primary-color: #047aed;
-    --secondary-color: #1c3fa8;
-    --dark-color: #002240;
+    --primary-color: #808f85;
+    --dark-color: #595959;
     --light-color: #f4f4f4;
-    --success-color: #5cb85c;
-    --error-color: #d9534f;
   }
 
 
@@ -83,7 +80,7 @@ img {
 }
 
 
-.about-me-text{
+.about-me-text {
     animation: slideInFromLeft 1s ease-in;/*plz check animation below*/
 }
 
@@ -94,6 +91,15 @@ img {
 
 .about-me p {
     margin: 20px 0;
+}
+
+.about-me-pic {
+    animation: slideInFromRight 1s ease-in;
+}
+
+.myphoto {
+    border-radius: 15%;
+    
 }
 
 
@@ -129,8 +135,16 @@ img {
   }
   
 
+/* work page */
+
+.introduction-text{
+    animation: slideInFromTop 1s ease-in;/*plz check animation below*/
+}
 
 
+.project-img {
+    border-radius: 5%;
+}
 
 
 
@@ -142,6 +156,10 @@ img {
     padding: 0 40px;
 
 }
+
+
+
+
 
 .card {
     background-color: #fff;
@@ -164,7 +182,7 @@ img {
 .btn-outline {
     background-color: transparent;
     border: 1px #fff solid;
-  }
+}
   
 
 .flex {
@@ -186,7 +204,7 @@ img {
 
 .grid-3 {
     grid-template-columns: repeat(3, 1fr);
-  }
+}
   
 
 /* Animations */
@@ -200,6 +218,27 @@ img {
     }
   }
 
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInFromRight {
+
+    0% {
+        transform: translateX(100%);
+    }
+      
+    100% {
+        transform: translateX(0);
+    }
+
+  }
 
 /* in the following way I can use css like bootstrap */
 /* commonly used text sizes */
@@ -225,6 +264,10 @@ img {
   
   .text-center {
     text-align: center;
+  }
+
+  .text-left {
+    text-align: left;
   }
   
   /* commonly used margin */
