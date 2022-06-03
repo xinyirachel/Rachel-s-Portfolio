@@ -1,0 +1,351 @@
+
+/* font Lato imported from Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Lato:wght@300&display=swap');
+
+:root {
+    --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
+  }
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'lato',sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: none;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    /* tell the paragraph apart */
+    margin: 10px 0;
+}
+
+img {
+    /* keep the img with the container */
+    width: 100%;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar a {
+    color:#fff;
+    padding: 10px;
+    margin: 0 5px;
+
+}
+
+/*about me section*/
+
+.about-me {
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+
+.about-me-text{
+    animation: slideInFromLeft 1s ease-in;/*plz check animation below*/
+}
+
+
+.about-me h1 {
+    font-size: 40px;
+}
+
+.about-me p {
+    margin: 20px 0;
+}
+
+
+/* skills*/
+
+.skills .flex {
+    flex-wrap: wrap;
+}
+
+
+.skills .card {
+    margin:18px 10px 40px;
+    transition: transform 0.2s ease-in;
+}
+
+.skills .card:hover {
+    transform: translateY(-15px);
+  }
+
+
+/* footer section */
+  
+  .fa-github:hover {
+    color: black;
+  }
+  
+  .fa-facebook:hover {
+    color: blue;
+  }
+  
+  .fa-instagram:hover {
+    color: hotpink;
+  }
+  
+
+
+
+
+
+
+/* class will be used all around website */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}   
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+.btn-outline {
+    background-color: transparent;
+    border: 1px #fff solid;
+  }
+  
+
+.flex {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+
+} 
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+
+/* Animations */
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+/* in the following way I can use css like bootstrap */
+/* commonly used text sizes */
+  .lead {
+    font-size: 20px;
+  }
+  
+  .sm {
+    font-size: 1rem;
+  }
+  
+  .md {
+    font-size: 2rem;
+  }
+  
+  .lg {
+    font-size: 3rem;
+  }
+  
+  .xl {
+    font-size: 4rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* commonly used margin */
+  .my-1 {
+    margin: 1rem 0;
+  }
+  
+  .my-2 {
+    margin: 1.5rem 0;
+  }
+  
+  .my-3 {
+    margin: 2rem 0;
+  }
+  
+  .my-4 {
+    margin: 3rem 0;
+  }
+  
+  .my-5 {
+    margin: 4rem 0;
+  }
+  
+  .m-1 {
+    margin: 1rem;
+  }
+  
+  .m-2 {
+    margin: 1.5rem;
+  }
+  
+  .m-3 {
+    margin: 2rem;
+  }
+  
+  .m-4 {
+    margin: 3rem;
+  }
+  
+  .m-5 {
+    margin: 4rem;
+  }
+  
+  /* commonly used padding */
+  .py-1 {
+    padding: 1rem 0;
+  }
+  
+  .py-2 {
+    padding: 1.5rem 0;
+  }
+  
+  .py-3 {
+    padding: 2rem 0;
+  }
+  
+  .py-4 {
+    padding: 3rem 0;
+  }
+  
+  .py-5 {
+    padding: 4rem 0;
+  }
+  
+  .p-1 {
+    padding: 1rem;
+  }
+  
+  .p-2 {
+    padding: 1.5rem;
+  }
+  
+  .p-3 {
+    padding: 2rem;
+  }
+  
+  .p-4 {
+    padding: 3rem;
+  }
+  
+  .p-5 {
+    padding: 4rem;
+  }
+
+  /* back-ground color*/
+
+.bg-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.bg-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+/* tablets */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+}
