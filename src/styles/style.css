@@ -121,13 +121,25 @@ img {
 
 
 /* footer section */
+
+  .fa-github {
+    color: white;
+  }
   
   .fa-github:hover {
     color: black;
   }
+
+  .fa-linkedin {
+    color: white;
+  }
   
-  .fa-facebook:hover {
-    color: blue;
+  .fa-linkedin:hover {
+    color: navy;
+  }
+
+  .fa-instagram {
+    color: white;
   }
   
   .fa-instagram:hover {
@@ -169,7 +181,7 @@ img {
 
 .contact input[type='email'] {
     border: 0;
-    border-bottom: 1px solid #093527;
+    border-bottom: 1px solid var(--primary-color);
     width: 100%;
     padding: 3px;
     font-size: 16px;
@@ -177,7 +189,7 @@ img {
 
 .contact textarea {
     border: 0;
-    border-bottom: 1px solid #093527;
+    border-bottom: 1px solid var(--primary-color);
     height: 200px;
     width: 100%;
     padding: 3px;
@@ -276,7 +288,10 @@ img {
 
   }
 
-/* in the following way I can use css like bootstrap */
+
+
+/*______________________my "library"______________________________*/ 
+/* in the following way I can use css like bootstrap, some of them are not used but still keep them here for future development*/
 /* commonly used text sizes */
   .lead {
     font-size: 20px;
@@ -395,11 +410,6 @@ img {
   color: #fff;
 }
 
-.bg-secondary {
-  background-color: var(--secondary-color);
-  color: #fff;
-}
-
 .bg-dark {
   background-color: var(--dark-color);
   color: #fff;
@@ -409,7 +419,16 @@ img {
   background-color: var(--light-color);
   color: #333;
 }
+/*________________________my "library"_____________________________*/ 
 
+
+
+
+
+
+
+
+/* responsiveness */
 /* tablets */
 @media (max-width: 768px) {
     .grid {
