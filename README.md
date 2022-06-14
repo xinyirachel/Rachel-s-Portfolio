@@ -5,8 +5,7 @@
 - [Link to Repo](https://github.com/xinyirachel/Rachel-s-Portfolio)
 
 ### Purpose
-This static website is a creation to show my HTML/CSS coding and designing skills.
-
+This static website is a platform to introduce myself to potential employers. It is also a creation to show my knowledge of HTML/CSS and other web developing tools like wireframe softwares, github and etc.
 
 ### Functionality / Features
 - Nav Bar
@@ -19,11 +18,9 @@ This static website is a creation to show my HTML/CSS coding and designing skill
 - Contact form
 - Links to social media
 
-
 ### Wireframes
 #### Balsamiq (to be update)
 #### Figma  (to be update)
-
 
 
 ### Tech stack
@@ -34,4 +31,5 @@ This static website is a creation to show my HTML/CSS coding and designing skill
 - Balsamiq
 - Figma
 - Netlify
+- Github
 
