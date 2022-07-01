@@ -98,7 +98,7 @@ img {
 }
 
 .myphoto {
-    border-radius: 15%;
+    border-radius: 10%;
     
 }
 
@@ -107,49 +107,49 @@ img {
 
 .skills .flex {
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 
 .skills .card {
-    margin:18px 10px 40px;
-    transition: transform 0.2s ease-in;
+    margin:18px 10px 40px;    
 }
 
-.skills .card:hover {
-    transform: translateY(-15px);
-  }
+
+.svg {
+    height: 50px;
+    width: 50px;
+}
 
 
 /* footer section */
 
-  .fa-github {
+.fa-github {
     color: white;
-  }
+}
   
-  .fa-github:hover {
+.fa-github:hover {
     color: black;
-  }
+}
 
-  .fa-linkedin {
+.fa-linkedin {
     color: white;
-  }
+}
   
-  .fa-linkedin:hover {
+.fa-linkedin:hover {
     color: navy;
-  }
+}
 
-  .fa-instagram {
+.fa-instagram {
     color: white;
-  }
+}
   
-  .fa-instagram:hover {
+.fa-instagram:hover {
     color: hotpink;
-  }
+}
   
 
 /* work page */
-
-
 .introduction-text{
     animation: slideInFromTop 1s ease-in;/*plz check animation below*/
 }
@@ -161,8 +161,9 @@ img {
 
 /* contact-page */
 
-.contact-me-text {
-    animation: slideInFromLeft 1s ease-in;/*plz check animation below*/
+.contact-me-text {    
+    animation-name: colorchange;/*plz check animation below*/
+    animation-duration: 4s;
 }
 
 .contact {   
@@ -170,7 +171,7 @@ img {
     height: 600px;
     width: 300px;
     padding: 0px;
-    animation: slideInFromRight 1s ease-in;
+    animation: slideInFromLeft 1s ease-in;
 }
 
 .contact-flex{
@@ -203,7 +204,6 @@ img {
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    overflow: auto;
     padding: 0 40px;
 
 }
@@ -214,7 +214,13 @@ img {
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
+    transition: transform 0.2s ease-in;
 }   
+
+
+.card:hover {
+  transform: translateY(-15px);
+}
 
 
 .btn {
@@ -225,7 +231,7 @@ img {
     color: #fff;
     border: none;
     border-radius: 5px;
-  }
+}
   
 .btn-outline {
     background-color: transparent;
@@ -286,6 +292,11 @@ img {
         transform: translateX(0);
     }
 
+  }
+
+  @keyframes colorchange {
+    from {color: lightgrey;}
+    to {color: darkgreen;}
   }
 
 
@@ -435,6 +446,10 @@ img {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
+    .myphoto {
+      width: 300px;
+      height: 300px;
+  }
 }
 
 

@@ -1,4 +1,4 @@
-# Rachel's Portfolio (This documentaton will be updated before 24/6/2022)
+# Rachel's Portfolio (This documentaton will be updated before 2/7/2022)
 
 - [Link to website](https://rachel-s-portfolio.netlify.app/index.html)
 
