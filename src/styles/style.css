@@ -469,4 +469,10 @@ img {
     flex-direction: column;
   }
 
+  .navbar {
+    height: 120px;
+  }
+
+
+
 }
