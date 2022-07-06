@@ -47,6 +47,18 @@ img {
   width: 100%;
 }
 
+.logo {
+  font-family: 'lato', sans-serif;
+
+}
+
+.logo:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+
+
 .navbar {
   background-color: var(--primary-color);
   color: #fff;
