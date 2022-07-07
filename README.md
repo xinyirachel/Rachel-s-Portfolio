@@ -1,4 +1,4 @@
-# Rachel's Portfolio (This documentaton will be updated before 2/7/2022)
+# Rachel's Portfolio
 
 - [Link to website](https://rachel-s-portfolio.netlify.app/index.html)
 
@@ -17,11 +17,6 @@ This static website is a platform to introduce myself to potential employers. It
 - Work section
 - Contact form
 - Links to social media
-
-### Wireframes
-#### Balsamiq (to be update)
-#### Figma  (to be update)
-
 
 ### Tech stack
 - HTML
