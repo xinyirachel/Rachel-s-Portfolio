@@ -349,7 +349,7 @@ img {
 
 
 /*______________________my "library"______________________________*/
-/* in the following way I can use css like bootstrap, some of them are not used but still keep them here for future development*/
+/* some of them are not used but still keep them here for future development*/
 /* commonly used text sizes */
 .lead {
   font-size: 20px;
@@ -477,13 +477,6 @@ img {
   background-color: var(--light-color);
   color: #333;
 }
-
-/*________________________my "library"_____________________________*/
-
-
-
-
-
 
 
 
