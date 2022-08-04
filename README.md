@@ -24,7 +24,6 @@ This static website is a platform to introduce myself to potential employers. It
 - Font-awesome
 - Formspree
 - Balsamiq
-- Figma
 - Netlify
 - Github
 
