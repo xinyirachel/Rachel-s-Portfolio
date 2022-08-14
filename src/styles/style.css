@@ -93,6 +93,7 @@ img {
   color: #fff;
   position: relative;
   width: 100%;
+  padding: 60px;
 }
 
 
@@ -129,6 +130,7 @@ img {
 .eskills{
   height: auto;
   width: 100%;
+  padding: 60px;
 }
 
 .skills .flex {
@@ -176,6 +178,7 @@ img {
 .work{
   height: auto;
   width: 100%;
+  padding: 60px;
 }
 
 .introduction-text {
@@ -194,7 +197,7 @@ img {
   top: 60px;
   height: auto;
   width: 300px;
-  padding: 0px;
+  padding: 30px;
   animation: slideInFromLeft 1s ease-in;
 }
 
