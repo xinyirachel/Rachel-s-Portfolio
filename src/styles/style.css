@@ -151,27 +151,6 @@ img {
 }
 
 
-/* footer section */
-
-.footer {
-  width: 100%;
-}
-
-.fa-github {
-  color: white;
-}
-
-.fa-github:hover {
-  color: black;
-}
-
-.fa-linkedin {
-  color: white;
-}
-
-.fa-linkedin:hover {
-  color: navy;
-}
 
 
 
@@ -226,7 +205,31 @@ img {
   font-size: 16px;
 }
 
+/* footer section */
 
+.footer {
+  width: 100%;
+}
+
+.fa-github {
+  color: white;
+}
+
+.fa-github:hover {
+  color: black;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-linkedin:hover {
+  color: navy;
+}
+
+.bottomlink {
+  color: var(--light-color);
+}
 
 
 /* class will be used all around website */
@@ -265,10 +268,6 @@ img {
   animation-iteration-count: infinite;
 }
 
-.btn-outline {
-  background-color: transparent;
-  border: 1px #fff solid;
-}
 
 .btn-small {
   display: inline-block;
