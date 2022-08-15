@@ -63,7 +63,6 @@ img {
   background-color: var(--primary-color);
   color: #fff;
   height: 70px;
-  position: fixed;
   width: 100%;
 }
 
