@@ -153,7 +153,6 @@ img {
 
 
 
-
 /* work page */
 .work{
   height: auto;
@@ -170,6 +169,25 @@ img {
 .project-img {
   border-radius: 5%;
 }
+
+.chip {
+  display: inline-block;
+  padding: 0 20px;
+  height: 25px;
+  font-size: 10px;
+  line-height: 25px;
+  border-radius: 15px;
+  background-color: var(--primary-color);
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -5px;
+  height: 25px;
+  width: 25px;
+}
+
+
 
 /* contact-page */
 
@@ -224,7 +242,15 @@ img {
 }
 
 .fa-linkedin:hover {
-  color: navy;
+  color: lightblue;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-facebook:hover {
+  color: blue;
 }
 
 .bottomlink {
@@ -249,6 +275,10 @@ img {
   transition: transform 0.2s ease-in;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.card-project {
+  height: 400px;
 }
 
 
@@ -296,6 +326,7 @@ img {
   align-items: center;
   height: 100%;
 }
+
 
 .grid {
   display: grid;
