@@ -128,6 +128,13 @@ img {
 
 
 /* skills*/
+
+.container-skills {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+
+}
 .eskills{
   height: auto;
   width: 100%;
@@ -141,7 +148,7 @@ img {
 
 
 .skills .card {
-  margin: 18px 10px 40px;
+  margin: 18px 10px 20px;
 }
 
 
@@ -149,8 +156,6 @@ img {
   height: 50px;
   width: 50px;
 }
-
-
 
 
 /* work page */
@@ -165,7 +170,15 @@ img {
   /*plz check animation below*/
 }
 
+.card-project {
+  height: 400px;
+}
 
+.card-project-cs {
+  height: 400px;
+}
+
+/* Above card is for coming soon project for mobile view, replace class to card-project once the project has done with chips in desription*/
 .project-img {
   border-radius: 5%;
 }
@@ -179,7 +192,6 @@ img {
   background-color: var(--primary-color);
   border: 1px;
 }
-
 
 
 
@@ -271,9 +283,8 @@ img {
   grid-template-columns: 1fr;
 }
 
-.card-project {
-  height: 400px;
-}
+
+
 
 
 
@@ -564,5 +575,22 @@ img {
   .about-me {
     padding: 5px;
   }
+ 
+ .container-skills {
+  max-width: 100%;
+  margin: 0 0;
+  padding: 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ }
+
+ .card-project-cs {
+  height: 200px;
+  
+  
+ }
+/* Above card is for coming soon project for mobile view, replace class to card-project once the project has done with chips in desription*/
 
 }
+
+
