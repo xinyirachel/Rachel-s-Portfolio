@@ -565,6 +565,7 @@ img {
   .container {
     display: flex;
     flex-direction: column;
+    padding: 0 10px
   }
 
   .navbar {
@@ -576,6 +577,8 @@ img {
     padding: 5px;
   }
  
+
+
  .container-skills {
   max-width: 100%;
   margin: 0 0;
@@ -586,11 +589,11 @@ img {
 
  .card-project-cs {
   height: 200px;
+
   
   
  }
 /* Above card is for coming soon project for mobile view, replace class to card-project once the project has done with chips in desription*/
 
 }
-
 
